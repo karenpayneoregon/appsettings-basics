@@ -9,12 +9,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class projects", "Class pro
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit test projects", "Unit test projects", "{B9147C59-19BD-4D14-A7AF-A2F95E16F769}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppSettingsCoreUnitTestProject", "AppSettingsCoreUnitTestProject\AppSettingsCoreUnitTestProject.csproj", "{AC56E0E7-9B1D-4CCE-BA1F-D67A9CA5D27F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppSettingsCoreUnitTestProject", "AppSettingsCoreUnitTestProject\AppSettingsCoreUnitTestProject.csproj", "{AC56E0E7-9B1D-4CCE-BA1F-D67A9CA5D27F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E8A62CA0-9C3F-49AB-91A8-B8F264F73D3C}"
 	ProjectSection(SolutionItems) = preProject
 		readme.md = readme.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWindCoreLibrary", "NorthWindCoreLibrary\NorthWindCoreLibrary.csproj", "{3D1534B4-0770-4B08-8A6D-EE4290925CD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWindCoreTestProject", "NorthWindCoreTestProject\NorthWindCoreTestProject.csproj", "{9BF51141-952A-4DEE-9950-5F047524BEBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessConnectionLibrary", "AccessConnectionLibrary\AccessConnectionLibrary.csproj", "{99330353-C8BC-409D-8C8F-9366EF85C36C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessTestProject", "AcccessTestProject\AccessTestProject.csproj", "{C539A7A5-0BDB-4810-AFA5-9A57AEA4C4B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +38,22 @@ Global
 		{AC56E0E7-9B1D-4CCE-BA1F-D67A9CA5D27F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC56E0E7-9B1D-4CCE-BA1F-D67A9CA5D27F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC56E0E7-9B1D-4CCE-BA1F-D67A9CA5D27F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D1534B4-0770-4B08-8A6D-EE4290925CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1534B4-0770-4B08-8A6D-EE4290925CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1534B4-0770-4B08-8A6D-EE4290925CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1534B4-0770-4B08-8A6D-EE4290925CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BF51141-952A-4DEE-9950-5F047524BEBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF51141-952A-4DEE-9950-5F047524BEBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF51141-952A-4DEE-9950-5F047524BEBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF51141-952A-4DEE-9950-5F047524BEBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99330353-C8BC-409D-8C8F-9366EF85C36C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99330353-C8BC-409D-8C8F-9366EF85C36C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99330353-C8BC-409D-8C8F-9366EF85C36C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99330353-C8BC-409D-8C8F-9366EF85C36C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C539A7A5-0BDB-4810-AFA5-9A57AEA4C4B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C539A7A5-0BDB-4810-AFA5-9A57AEA4C4B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C539A7A5-0BDB-4810-AFA5-9A57AEA4C4B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C539A7A5-0BDB-4810-AFA5-9A57AEA4C4B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +61,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4637C083-82DA-4482-A058-D81CA5FF9259} = {44F53A53-37EC-4F35-9749-6B432EEC090B}
 		{AC56E0E7-9B1D-4CCE-BA1F-D67A9CA5D27F} = {B9147C59-19BD-4D14-A7AF-A2F95E16F769}
+		{3D1534B4-0770-4B08-8A6D-EE4290925CD3} = {44F53A53-37EC-4F35-9749-6B432EEC090B}
+		{9BF51141-952A-4DEE-9950-5F047524BEBA} = {B9147C59-19BD-4D14-A7AF-A2F95E16F769}
+		{99330353-C8BC-409D-8C8F-9366EF85C36C} = {44F53A53-37EC-4F35-9749-6B432EEC090B}
+		{C539A7A5-0BDB-4810-AFA5-9A57AEA4C4B3} = {B9147C59-19BD-4D14-A7AF-A2F95E16F769}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D2CF73E1-83DB-4D71-9E89-01CD3F4F2F16}
