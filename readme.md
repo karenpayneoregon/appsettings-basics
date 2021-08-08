@@ -1,5 +1,17 @@
 # About
 
+Developers have been using `app.config` for storing connection string for decades using conventional .NET Framework applications. 
+
+This still can be done with .NET Core although a better way is to use a Json file. This repository focuses on storing connection string in a Json file.
+
+For an indeph insight comparing app.config to appsettings.json see [Microsoft TechNet article .NET Core desktop application configurations (C#)](https://social.technet.microsoft.com/wiki/contents/articles/54173.net-core-desktop-application-configurations-c.aspx)
+
+## Developer expertise
+
+- Novice developers use this repository
+- Intermedate developers use the [TechNet article](http://example.com)
+
+
 Provides samples for using appsettings.json for .NET Core/C# 9 instead of using app.config
 
 
@@ -8,8 +20,10 @@ Provides samples for using appsettings.json for .NET Core/C# 9 instead of using 
       - Sql-Server
       - Access
     - A EF Core 5 example
+      - Sql-Server
 - Proper usage is to keep, in this case SqlServerConnectionLibrary project in this solution, when needed for your solution reference this project's DLL
 
+![img](assets/DatabaseConnection.png)
 ## SQL-Server data provider
 
 For SQL-Server we have three environments  (same as EF Core)
@@ -304,3 +318,8 @@ namespace NorthWindCoreLibrary.LanguageExtensions
 }
 ```
 
+
+# See also
+
+- Repository [Moving from .NET Framework to .NET Core](https://github.com/karenpayneoregon/moving-to-net5-version1)
+- Repository [Unit testing Json](https://github.com/karenpayneoregon/unit-test-json)
