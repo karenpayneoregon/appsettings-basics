@@ -4,7 +4,9 @@ Provides samples for using appsettings.json for .NET Core/C# 9 instead of using 
 
 
 - Currently there is
-    - A data provider example
+    - A data provider example for
+      - Sql-Server
+      - Access
     - A EF Core 5 example
 - Proper usage is to keep, in this case SqlServerConnectionLibrary project in this solution, when needed for your solution reference this project's DLL
 
@@ -122,6 +124,42 @@ namespace AppSettingsCoreUnitTestProject.Classes
     }
 }
 ```
+## MS-Access data provider
+
+This version is the same as the SQL-Server version except the name of the project and unit test
+
+![img](assets/accessTest.png)
+
+### Unit test
+
+```csharp
+namespace AccessTestProject
+{
+    [TestClass]
+    public partial class MainTest : TestBase
+    {
+
+        [TestMethod]
+        [TestTraits(Trait.ConnectionsTest)]
+        public void TestDefaultConnection()
+        {
+            var (success, _ ) = AccessOperations.TestConnection();
+            Assert.IsTrue(success);
+        }
+        [TestMethod]
+        [TestTraits(Trait.Reading)]
+        public void GetCustomers()
+        {
+            var (success, _, table) = AccessOperations.GetCustomers();
+            
+            Assert.AreEqual(table.Rows.Count,2);
+        }
+    }
+}
+```
+
+</br>
+
 
 ## SQL-Server Entity Framework Core
 
