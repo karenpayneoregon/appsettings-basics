@@ -5,6 +5,8 @@ Provides samples for using appsettings.json for .NET Core/C# 9 instead of using 
 - Currently there is only one example for working with SQL-Server, later other examples will following.
 - Proper usage is to keep, in this case SqlServerConnectionLibrary project in this solution, when needed for your solution reference this project's DLL
 
+## Addendum
+
 For SQL-Server we have three environments
 
 ```json
