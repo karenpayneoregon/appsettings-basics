@@ -7,6 +7,10 @@ Provides samples for using appsettings.json for .NET Core/C# 9 instead of using 
 
 ## Addendum
 
+The only difference between `Oracle` and `SQL-Server` is the actual `connection string`. The methods used are the same for telling Oracle how to connect to your database.
+
+![assets/oracle1.png](./assets/oracle1.png)
+
 For SQL-Server we have three environments
 
 ```json
