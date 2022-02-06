@@ -1,4 +1,4 @@
-# About
+# Appsetting connection library for .NET Core projects
 
 Provides samples for using appsettings.json for .NET Core/C# 9 instead of using app.config
 
